@@ -1,0 +1,22 @@
+{
+  "name": "playwright-automation",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "regression":"npx playwright test",
+    "sanity":"npx  playwright  test --headed --project=chromium  --grep '@sanity'",
+    "AmazonFlow":"npx  playwright  test AmazonFlowPOM.spec.js --headed --project=chromium",
+    "generateAllureReport":"allure generate ./allure-results --clean",
+    "openAllure":"allure open ./allure-report"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.54.1",
+    "@types/node": "^22.13.10",
+    "allure-playwright": "^3.3.1",
+    "cross-env": "^7.0.3"
+  }
+}

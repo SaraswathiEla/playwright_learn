@@ -1,0 +1,198 @@
+<testsuites id="" name="" tests="1" failures="1" skipped="0" errors="0" time="15.289567000000002">
+<testsuite name="JHS_WEB\Home.spec.js" timestamp="2025-07-22T06:54:41.774Z" hostname="chromium" tests="1" failures="1" skipped="0" time="13.22" errors="0">
+<testcase name="@JHSsanity Verify JHS HomePage UI" classname="JHS_WEB\Home.spec.js" time="13.22">
+<failure message="Home.spec.js:6:5 @JHSsanity Verify JHS HomePage UI" type="FAILURE">
+<![CDATA[  [chromium] › JHS_WEB\Home.spec.js:6:5 › @JHSsanity Verify JHS HomePage UI ────────────────────────
+
+    TypeError: watchPage.validatePreVideoAd is not a function
+
+      27 | const watchPage=jhs.getWatchPage();
+      28 | await watchPage.verifyContentPlayback();
+    > 29 | await watchPage.validatePreVideoAd();
+         |                 ^
+      30 |
+      31 | })
+      32 |
+        at C:\Users\Saraswathi_B\Playwright Automation\tests\JHS_WEB\Home.spec.js:29:17
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ..\test-results\JHS_WEB-Home--JHSsanity-Verify-JHS-HomePage-UI-chromium\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    ..\test-results\JHS_WEB-Home--JHSsanity-Verify-JHS-HomePage-UI-chromium\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ..\test-results\JHS_WEB-Home--JHSsanity-Verify-JHS-HomePage-UI-chromium\error-context.md
+]]>
+</failure>
+<system-out>
+<![CDATA[✅ Launched JioHotstar homepage
+✅ Page title is correct
+✅ JioHotstar logo is visible
+✅ Home button is visible
+✅ Search button is visible
+✅ TV button is visible
+✅ Movies button is visible
+✅ Sports button is visible
+✅ spark button is visible
+✅ Categories button is visible
+✅ MySpace button is visible
+✅ "Company" label is visible in footer
+✅ "View Website in" label is visible in footer
+✅ "Need Help?" label is visible in footer
+✅ "Connect with Us" label is visible in footer
+✅ "AboutUs" label is visible in footer
+✅ "Careers" label is visible in footer
+✅ "English" label is visible in footer
+✅ "Visit Help Center" label is visible in footer
+✅ "Share Feedback" label is visible in footer
+✅ "© 2025 STAR. All Rights Reserved." label is visible in footer
+✅ "Terms Of Use" label is visible in footer
+✅ "Privacy Policy" label is visible in footer
+✅ "FAQ" label is visible in footer
+✅ "Facebook" Image icon is visible in footer
+✅ "Twitter" Image icon is visible in footer
+✅ "GooglePlayStore" Image icon is visible in footer
+✅ "AppStore" Image icon is visible in footer
+✅ "Company" label is visible in footer
+✅ "View Website in" label is visible in footer
+✅ "Need Help?" label is visible in footer
+✅ "Connect with Us" label is visible in footer
+✅ "AboutUs" label is visible in footer
+✅ "Careers" label is visible in footer
+✅ "English" label is visible in footer
+✅ "Visit Help Center" label is visible in footer
+✅ "Share Feedback" label is visible in footer
+✅ "© 2025 STAR. All Rights Reserved." label is visible in footer
+✅ "Terms Of Use" label is visible in footer
+✅ "Privacy Policy" label is visible in footer
+✅ "FAQ" label is visible in footer
+✅ "Facebook" Image icon is visible in footer
+✅ "Twitter" Image icon is visible in footer
+✅ "GooglePlayStore" Image icon is visible in footer
+✅ "AppStore" Image icon is visible in footer
+✅ 'searchPAge'succefully naviagted and footer is present
+✅ "Company" label is visible in footer
+✅ "View Website in" label is visible in footer
+✅ "Need Help?" label is visible in footer
+✅ "Connect with Us" label is visible in footer
+✅ "AboutUs" label is visible in footer
+✅ "Careers" label is visible in footer
+✅ "English" label is visible in footer
+✅ "Visit Help Center" label is visible in footer
+✅ "Share Feedback" label is visible in footer
+✅ "© 2025 STAR. All Rights Reserved." label is visible in footer
+✅ "Terms Of Use" label is visible in footer
+✅ "Privacy Policy" label is visible in footer
+✅ "FAQ" label is visible in footer
+✅ "Facebook" Image icon is visible in footer
+✅ "Twitter" Image icon is visible in footer
+✅ "GooglePlayStore" Image icon is visible in footer
+✅ "AppStore" Image icon is visible in footer
+✅ 'TV' succefully naviagted and footer is present
+✅ "Company" label is visible in footer
+✅ "View Website in" label is visible in footer
+✅ "Need Help?" label is visible in footer
+✅ "Connect with Us" label is visible in footer
+✅ "AboutUs" label is visible in footer
+✅ "Careers" label is visible in footer
+✅ "English" label is visible in footer
+✅ "Visit Help Center" label is visible in footer
+✅ "Share Feedback" label is visible in footer
+✅ "© 2025 STAR. All Rights Reserved." label is visible in footer
+✅ "Terms Of Use" label is visible in footer
+✅ "Privacy Policy" label is visible in footer
+✅ "FAQ" label is visible in footer
+✅ "Facebook" Image icon is visible in footer
+✅ "Twitter" Image icon is visible in footer
+✅ "GooglePlayStore" Image icon is visible in footer
+✅ "AppStore" Image icon is visible in footer
+✅ 'MOVIES' succefully naviagted and footer is present
+✅ "Company" label is visible in footer
+✅ "View Website in" label is visible in footer
+✅ "Need Help?" label is visible in footer
+✅ "Connect with Us" label is visible in footer
+✅ "AboutUs" label is visible in footer
+✅ "Careers" label is visible in footer
+✅ "English" label is visible in footer
+✅ "Visit Help Center" label is visible in footer
+✅ "Share Feedback" label is visible in footer
+✅ "© 2025 STAR. All Rights Reserved." label is visible in footer
+✅ "Terms Of Use" label is visible in footer
+✅ "Privacy Policy" label is visible in footer
+✅ "FAQ" label is visible in footer
+✅ "Facebook" Image icon is visible in footer
+✅ "Twitter" Image icon is visible in footer
+✅ "GooglePlayStore" Image icon is visible in footer
+✅ "AppStore" Image icon is visible in footer
+✅ 'SPORTS' succefully naviagted and footer is present
+✅ "Company" label is visible in footer
+✅ "View Website in" label is visible in footer
+✅ "Need Help?" label is visible in footer
+✅ "Connect with Us" label is visible in footer
+✅ "AboutUs" label is visible in footer
+✅ "Careers" label is visible in footer
+✅ "English" label is visible in footer
+✅ "Visit Help Center" label is visible in footer
+✅ "Share Feedback" label is visible in footer
+✅ "© 2025 STAR. All Rights Reserved." label is visible in footer
+✅ "Terms Of Use" label is visible in footer
+✅ "Privacy Policy" label is visible in footer
+✅ "FAQ" label is visible in footer
+✅ "Facebook" Image icon is visible in footer
+✅ "Twitter" Image icon is visible in footer
+✅ "GooglePlayStore" Image icon is visible in footer
+✅ "AppStore" Image icon is visible in footer
+✅ 'SPARK' succefully naviagted and footer is present
+✅ "Company" label is visible in footer
+✅ "View Website in" label is visible in footer
+✅ "Need Help?" label is visible in footer
+✅ "Connect with Us" label is visible in footer
+✅ "AboutUs" label is visible in footer
+✅ "Careers" label is visible in footer
+✅ "English" label is visible in footer
+✅ "Visit Help Center" label is visible in footer
+✅ "Share Feedback" label is visible in footer
+✅ "© 2025 STAR. All Rights Reserved." label is visible in footer
+✅ "Terms Of Use" label is visible in footer
+✅ "Privacy Policy" label is visible in footer
+✅ "FAQ" label is visible in footer
+✅ "Facebook" Image icon is visible in footer
+✅ "Twitter" Image icon is visible in footer
+✅ "GooglePlayStore" Image icon is visible in footer
+✅ "AppStore" Image icon is visible in footer
+✅ 'CATEGGORIES' succefully naviagted and footer is present
+✅ "Company" label is visible in footer
+✅ "View Website in" label is visible in footer
+✅ "Need Help?" label is visible in footer
+✅ "Connect with Us" label is visible in footer
+✅ "AboutUs" label is visible in footer
+✅ "Careers" label is visible in footer
+✅ "English" label is visible in footer
+✅ "Visit Help Center" label is visible in footer
+✅ "Share Feedback" label is visible in footer
+✅ "© 2025 STAR. All Rights Reserved." label is visible in footer
+✅ "Terms Of Use" label is visible in footer
+✅ "Privacy Policy" label is visible in footer
+✅ "FAQ" label is visible in footer
+✅ "Facebook" Image icon is visible in footer
+✅ "Twitter" Image icon is visible in footer
+✅ "GooglePlayStore" Image icon is visible in footer
+✅ "AppStore" Image icon is visible in footer
+✅ 'MYSPACEpage' succefully naviagted and footer is present
+Spider-Man
+[33m10[39m
+Spider-Man
+pass
+
+[[ATTACHMENT|test-results\JHS_WEB-Home--JHSsanity-Verify-JHS-HomePage-UI-chromium\test-failed-1.png]]
+
+[[ATTACHMENT|test-results\JHS_WEB-Home--JHSsanity-Verify-JHS-HomePage-UI-chromium\video.webm]]
+
+[[ATTACHMENT|test-results\JHS_WEB-Home--JHSsanity-Verify-JHS-HomePage-UI-chromium\error-context.md]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+</testsuites>

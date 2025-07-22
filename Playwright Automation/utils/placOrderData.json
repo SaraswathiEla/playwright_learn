@@ -1,0 +1,32 @@
+[
+  {
+  "userPhoneNum": "92311991",
+  "password": "Govinda@2015",
+  "searchKey": "shoes",
+  "search_sagg": "shoes for woman",
+  "RequiredProduct":"Women Summits Sneakers"
+},
+{
+  "userPhoneNum": "92311991",
+  "password": "Govinda@2015",
+  "searchKey": "school bag",
+  "search_sagg": "school bag for boys",
+  "RequiredProduct":"Riddle Blue Orange 46 Cms Casual Backpack with Raincover"
+},
+{
+  "userPhoneNum": "92311991",
+  "password": "Govinda@2015",
+  "searchKey": "gift",
+  "search_sagg": "gifts for woman",
+  "RequiredProduct":"YouBella Jewellery Bohemian Multi-Color Earrings for Girls and Women"
+},
+
+{
+  "userPhoneNum": "92311991",
+  "password": "Govinda@2015",
+  "searchKey": "chain",
+  "search_sagg": "chain for man",
+  "RequiredProduct":"Stainless Steel Elegant Statement Necklace Chain for Boys and Men"
+}
+
+]
