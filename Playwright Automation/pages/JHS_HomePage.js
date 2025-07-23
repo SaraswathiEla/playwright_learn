@@ -277,6 +277,14 @@ async gotoSearchPage()
     
 }
 
+async gotoMyspacePage()
+{
+  //myspace
+await this.mySpaceButton.click();
+await expect(this.page).toHaveURL(this.myspacePageURL);
+
+}
+
 
 
 }

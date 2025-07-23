@@ -1,0 +1,7 @@
+✅ Launched JioHotstar homepage
+Promise {
+  <pending>,
+  [Symbol(async_id_symbol)]: 20720,
+  [Symbol(trigger_async_id_symbol)]: 18652,
+  [Symbol(kResourceStore)]: undefined
+}

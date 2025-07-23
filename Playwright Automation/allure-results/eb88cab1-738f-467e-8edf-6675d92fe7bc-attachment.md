@@ -1,0 +1,214 @@
+# Page snapshot
+
+```yaml
+- complementary:
+  - navigation:
+    - tab "Home":
+      - button
+    - tab "Search" [selected]:
+      - button
+    - tab "TV":
+      - button
+    - tab "Movies":
+      - button
+    - tab "Sports":
+      - button
+    - tab "Sparks":
+      - button
+    - tab "Categories":
+      - button
+    - tab "My Space":
+      - button
+- textbox:
+  - group
+  - textbox "Movies, shows and more": Spider-Man
+  - button
+- paragraph: spiderman no way home
+- paragraph: spiderman into the spiderverse
+- paragraph: ultimate spiderman
+- paragraph: spiderman no
+- paragraph: marvels spiderman
+- paragraph: TOP RESULT
+- link "Spider-Man 2002 1h 56m Hindi U/A 13+ Watch Now":
+  - /url: /in/movies/spider-man/1971001901?search_query=Spider-Man
+  - img
+  - paragraph: Spider-Man
+  - text: 2002 1h 56m Hindi U/A 13+
+  - button "Watch Now":
+    - link "Watch Now":
+      - /url: /in/movies/spider-man/1971001901/watch?search_query=Spider-Man
+      - button "Watch Now"
+- heading "More Like This" [level=2]
+- img "Spider-Man 2"
+- img "Men In Black II"
+- img "Men In Black"
+- img "Men In Black 3 (Hindi)"
+- 'img "Jumanji: The Next Level"'
+- 'img "Jumanji: Welcome To The Jungle (Hindi)"'
+- 'img "XXX: State Of Union"'
+- text: Sindhubaadh Hanuman Rudhran
+- button ""
+- paragraph: MORE RESULTS
+- link "Haarsh, the spider-man!  11m Haarsh, the spider-man! Hindi":
+  - /url: /in/clips/haarsh-the-spider-man/1971261809/watch?search_query=Spider-Man
+  - img "Haarsh, the spider-man!"
+  - text: 
+  - paragraph: 11m
+  - text: Haarsh, the spider-man! Hindi
+- link "Spiderman in Punjabi!  3m Spiderman in Punjabi! Hindi":
+  - /url: /in/clips/spiderman-in-punjabi/1971143734/watch?search_query=Spider-Man
+  - img "Spiderman in Punjabi!"
+  - text: 
+  - paragraph: 3m
+  - text: Spiderman in Punjabi! Hindi
+- link "Gill Becomes Spider-Man  2m Gill Becomes Spider-Man 2023 TATA IPL":
+  - /url: /in/sports/cricket/gill-becomes-spider-man/1970990210/watch?search_query=Spider-Man
+  - img "Gill Becomes Spider-Man"
+  - text: 
+  - paragraph: 2m
+  - text: Gill Becomes Spider-Man 2023 TATA IPL
+- link "Romil loves Spider-Man  4m Romil loves Spider-Man Hindi":
+  - /url: /in/clips/romil-loves-spider-man/1971144285/watch?search_query=Spider-Man
+  - img "Romil loves Spider-Man"
+  - text: 
+  - paragraph: 4m
+  - text: Romil loves Spider-Man Hindi
+- link "Kuri becomes Spiderman!  1m Kuri becomes Spiderman! Kannada":
+  - /url: /in/clips/kuri-becomes-spiderman/1971135203/watch?search_query=Spider-Man
+  - img "Kuri becomes Spiderman!"
+  - text: 
+  - paragraph: 1m
+  - text: Kuri becomes Spiderman! Kannada
+- link "Spider-Man 3 | Promo  30s Spider-Man 3 | Promo Hindi":
+  - /url: /in/clips/spider-man-3-promo/1971011047/watch?search_query=Spider-Man
+  - text: Spider-Man 3 | Promo 
+  - paragraph: 30s
+  - text: Spider-Man 3 | Promo Hindi
+- link "Desi spiderman in Khatra show  6m Desi spiderman in Khatra show Hindi":
+  - /url: /in/clips/desi-spiderman-in-khatra-show/1971270183/watch?search_query=Spider-Man
+  - text: Desi spiderman in Khatra show 
+  - paragraph: 6m
+  - text: Desi spiderman in Khatra show Hindi
+- link "Who doesn't love Spiderman?  4m Who doesn't love Spiderman? Hindi":
+  - /url: /in/clips/who-doesnt-love-spiderman/1971144452/watch?search_query=Spider-Man
+  - text: Who doesn't love Spiderman? 
+  - paragraph: 4m
+  - text: Who doesn't love Spiderman? Hindi
+- link "Spider-Man 2 - Official Trailer  2m Spider-Man 2 - Official Trailer English":
+  - /url: /in/clips/spider-man-2-official-trailer/1971293974/watch?search_query=Spider-Man
+  - text: Spider-Man 2 - Official Trailer 
+  - paragraph: 2m
+  - text: Spider-Man 2 - Official Trailer English
+- link "Spiderman ko banna hai Roadie  48m Spiderman ko banna hai Roadie Hindi":
+  - /url: /in/clips/spiderman-ko-banna-hai-roadie/1271391965/watch?search_query=Spider-Man
+  - text: Spiderman ko banna hai Roadie 
+  - paragraph: 48m
+  - text: Spiderman ko banna hai Roadie Hindi
+- link "Your Friendly Neighborhood Spider-Man - Trailer  2m Your Friendly Neighborhood Spider-Man - Trailer Marvel English":
+  - /url: /in/clips/your-friendly-neighborhood-spider-man-trailer/1271382527/watch?search_query=Spider-Man
+  - text: Your Friendly Neighborhood Spider-Man - Trailer 
+  - paragraph: 2m
+  - text: Your Friendly Neighborhood Spider-Man - Trailer Marvel English
+- 'link "Phineas and Ferb: Mission Marvel Phineas and Ferb: Mission Marvel 2013 44m Marvel"':
+  - /url: /in/movies/phineas-and-ferb-mission-marvel/1260021517?search_query=Spider-Man
+- link "The Amazing Spider-Man 2 | Promo  1m The Amazing Spider-Man 2 | Promo Hindi":
+  - /url: /in/clips/the-amazing-spider-man-2-promo/1971010980/watch?search_query=Spider-Man
+  - text: The Amazing Spider-Man 2 | Promo 
+  - paragraph: 1m
+  - text: The Amazing Spider-Man 2 | Promo Hindi
+- link "Speed Racer Movie Speed Racer Movie 2016 1h 6m English":
+  - /url: /in/movies/speed-racer-movie/1971313906?search_query=Spider-Man
+- link "Spiders atop Balraj!  5m Spiders atop Balraj! Hindi":
+  - /url: /in/clips/spiders-atop-balraj/1971260774/watch?search_query=Spider-Man
+  - text: Spiders atop Balraj! 
+  - paragraph: 5m
+  - text: Spiders atop Balraj! Hindi
+- link "Hulka to avenge Spider Annan's death!  8m Hulka to avenge Spider Annan's death! Hindi":
+  - /url: /in/clips/hulka-to-avenge-spider-annans-death/1971257177/watch?search_query=Spider-Man
+  - text: Hulka to avenge Spider Annan's death! 
+  - paragraph: 8m
+  - text: Hulka to avenge Spider Annan's death! Hindi
+- link "Itsy bitsy spider wows everyone!  2m Itsy bitsy spider wows everyone! Kannada":
+  - /url: /in/clips/itsy-bitsy-spider-wows-everyone/1971131742/watch?search_query=Spider-Man
+  - text: Itsy bitsy spider wows everyone! 
+  - paragraph: 2m
+  - text: Itsy bitsy spider wows everyone! Kannada
+- link "Taking advantage of Kishan!  1m Taking advantage of Kishan! Kannada":
+  - /url: /in/clips/taking-advantage-of-kishan/1971131968/watch?search_query=Spider-Man
+  - text: Taking advantage of Kishan! 
+  - paragraph: 1m
+  - text: Taking advantage of Kishan! Kannada
+- 'link "Iron Man and Hulk: Heroes United - Trailer  28s Iron Man and Hulk: Heroes United - Trailer Marvel English"':
+  - /url: /in/clips/iron-man-and-hulk-heroes-united-trailer/1260026851/watch?search_query=Spider-Man
+  - text: "Iron Man and Hulk: Heroes United - Trailer "
+  - paragraph: 28s
+  - text: "Iron Man and Hulk: Heroes United - Trailer Marvel English"
+- 'link "Phineas and Ferb: Mission Marvel - Trailer  55s Phineas and Ferb: Mission Marvel - Trailer Marvel 4 Languages"':
+  - /url: /in/clips/phineas-and-ferb-mission-marvel-trailer/1260022753/watch?search_query=Spider-Man
+  - text: "Phineas and Ferb: Mission Marvel - Trailer "
+  - paragraph: 55s
+  - text: "Phineas and Ferb: Mission Marvel - Trailer Marvel 4 Languages"
+- 'link "Hulk: Where Monsters Dwell - Trailer  1m Hulk: Where Monsters Dwell - Trailer Marvel English"':
+  - /url: /in/clips/hulk-where-monsters-dwell-trailer/1260027454/watch?search_query=Spider-Man
+  - text: "Hulk: Where Monsters Dwell - Trailer "
+  - paragraph: 1m
+  - text: "Hulk: Where Monsters Dwell - Trailer Marvel English"
+- 'link "Iron Man and Captain America: Heroes United - Trailer  1m Iron Man and Captain America: Heroes United - Trailer Marvel English"':
+  - /url: /in/clips/iron-man-and-captain-america-heroes-united-trailer/1260026850/watch?search_query=Spider-Man
+  - text: "Iron Man and Captain America: Heroes United - Trailer "
+  - paragraph: 1m
+  - text: "Iron Man and Captain America: Heroes United - Trailer Marvel English"
+- 'link "Marvel Super Hero Adventures: Frost Fight! - Trailer  1m Marvel Super Hero Adventures: Frost Fight! - Trailer Marvel English"':
+  - /url: /in/clips/marvel-super-hero-adventures-frost-fight-trailer/1260026853/watch?search_query=Spider-Man
+  - text: "Marvel Super Hero Adventures: Frost Fight! - Trailer "
+  - paragraph: 1m
+  - text: "Marvel Super Hero Adventures: Frost Fight! - Trailer Marvel English"
+- contentinfo:
+  - heading "Company" [level=4]
+  - list:
+    - listitem:
+      - link "About Us":
+        - /url: https://www.hotstar.com/about-us/in
+    - listitem:
+      - link "Careers":
+        - /url: https://careers.hotstar.com/
+  - heading "View Website in" [level=4]
+  - list:
+    - listitem:  English
+  - heading "Need Help?" [level=4]
+  - list:
+    - listitem:
+      - link "Visit Help Center":
+        - /url: https://help.hotstar.com/in/en/support/home
+    - listitem:
+      - link "Share Feedback":
+        - /url: https://help.hotstar.com/in/en/support/tickets/feedback
+  - heading "Connect with Us" [level=4]
+  - list:
+    - listitem:
+      - link "Facebook":
+        - /url: https://www.facebook.com/JioHotstar
+        - text: 
+    - listitem:
+      - link "Twitter":
+        - /url: https://x.com/jiohotstar
+        - text: 
+  - paragraph: © 2025 STAR. All Rights Reserved.
+  - list:
+    - listitem:
+      - link "Terms Of Use":
+        - /url: https://www.hotstar.com/tnc/in
+    - listitem:
+      - link "Privacy Policy":
+        - /url: https://www.hotstar.com/privacy-policy/in
+    - listitem:
+      - link "FAQ":
+        - /url: https://help.hotstar.com/in/en/support/home
+  - link "Get it on Google Play":
+    - /url: https://play.google.com/store/apps/details?id=in.startv.hotstar
+    - img "Get it on Google Play"
+  - link "Download on the App Store":
+    - /url: https://itunes.apple.com/in/app/hotstar/id934459219?mt=8
+    - img "Download on the App Store"
+- alert: JioHotstar - Watch TV Shows, Movies, Specials, Live Cricket & Football
+```

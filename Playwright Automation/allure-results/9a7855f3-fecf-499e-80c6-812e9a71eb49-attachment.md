@@ -1,0 +1,100 @@
+# Page snapshot
+
+```yaml
+- link "JioHotstar":
+  - /url: /in/paywall?source=subs_nudge&user_status=guest
+  - img "JioHotstar"
+- complementary:
+  - navigation:
+    - tab "Home":
+      - button
+    - tab "Search":
+      - button
+    - tab "TV":
+      - button
+    - tab "Movies":
+      - button
+    - tab "Sports":
+      - button
+    - tab "Sparks":
+      - button
+    - tab "Categories":
+      - button
+    - tab "My Space" [selected]:
+      - button
+- banner:
+  - link "Help & Support":
+    - /url: https://help.hotstar.com
+    - button "Help & Support"
+- heading "Login to JioHotstar" [level=6]
+- paragraph: Start watching from where you left off, personalise for kids and more
+- button "Log In"
+- contentinfo:
+  - heading "Company" [level=4]
+  - list:
+    - listitem:
+      - link "About Us":
+        - /url: https://www.hotstar.com/about-us/in
+    - listitem:
+      - link "Careers":
+        - /url: https://careers.hotstar.com/
+  - heading "View Website in" [level=4]
+  - list:
+    - listitem:  English
+  - heading "Need Help?" [level=4]
+  - list:
+    - listitem:
+      - link "Visit Help Center":
+        - /url: https://help.hotstar.com/in/en/support/home
+    - listitem:
+      - link "Share Feedback":
+        - /url: https://help.hotstar.com/in/en/support/tickets/feedback
+  - heading "Connect with Us" [level=4]
+  - list:
+    - listitem:
+      - link "Facebook":
+        - /url: https://www.facebook.com/JioHotstar
+        - text: 
+    - listitem:
+      - link "Twitter":
+        - /url: https://x.com/jiohotstar
+        - text: 
+  - paragraph: © 2025 STAR. All Rights Reserved.
+  - list:
+    - listitem:
+      - link "Terms Of Use":
+        - /url: https://www.hotstar.com/tnc/in
+    - listitem:
+      - link "Privacy Policy":
+        - /url: https://www.hotstar.com/privacy-policy/in
+    - listitem:
+      - link "FAQ":
+        - /url: https://help.hotstar.com/in/en/support/home
+  - link "Get it on Google Play":
+    - /url: https://play.google.com/store/apps/details?id=in.startv.hotstar
+    - img "Get it on Google Play"
+  - link "Download on the App Store":
+    - /url: https://itunes.apple.com/in/app/hotstar/id934459219?mt=8
+    - img "Download on the App Store"
+- alert: JioHotstar - Watch TV Shows, Movies, Specials, Live Cricket & Football
+- dialog:
+  - button
+  - heading "Login or sign up to continue" [level=6]
+  - paragraph: Scan QR code or enter phone number to login
+  - img
+  - paragraph: Use Camera App to Scan QR
+  - paragraph: Click on the link generated to redirect to JioHotstar mobile app
+  - text: OR +91
+  - textbox:
+    - group "Enter mobile number"
+    - textbox "Enter mobile number"
+  - text: By proceeding you confirm that you are above 18 years of age and agree to the
+  - link "Privacy Policy":
+    - /url: https://www.hotstar.com/privacy-policy/in
+  - text: "&"
+  - link "Terms of Use.":
+    - /url: https://hotstar.com/tnc/in
+  - text: Having trouble logging in?
+  - link "Get Help":
+    - /url: https://help.jiohotstar.com/in/en/support/search?term=login
+```

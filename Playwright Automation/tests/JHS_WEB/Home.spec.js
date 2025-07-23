@@ -17,7 +17,13 @@ const login=jhs.getHomePage();
   await login.verifyFooterLabels();
   await login.verifySideMenuNaviAndFooter();
 
-  //Login with number
+  //Login with number and verify otp
+  await login.gotoMyspacePage();
+  const myspacePage=  jhs.getMySpacePage();
+ await myspacePage.LoginBtnClick();
+ await myspacePage.EnterNumber();
+ await myspacePage.EnterOTPandSubmit();
+  
 
 
 //search the content and play

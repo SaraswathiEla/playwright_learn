@@ -1,19 +1,32 @@
-<testsuites id="" name="" tests="1" failures="1" skipped="0" errors="0" time="15.289567000000002">
-<testsuite name="JHS_WEB\Home.spec.js" timestamp="2025-07-22T06:54:41.774Z" hostname="chromium" tests="1" failures="1" skipped="0" time="13.22" errors="0">
-<testcase name="@JHSsanity Verify JHS HomePage UI" classname="JHS_WEB\Home.spec.js" time="13.22">
+<testsuites id="" name="" tests="1" failures="1" skipped="0" errors="0" time="33.064831000000005">
+<testsuite name="JHS_WEB\Home.spec.js" timestamp="2025-07-23T07:30:09.690Z" hostname="chromium" tests="1" failures="1" skipped="0" time="30.497" errors="0">
+<testcase name="@JHSsanity Verify JHS HomePage UI" classname="JHS_WEB\Home.spec.js" time="30.497">
 <failure message="Home.spec.js:6:5 @JHSsanity Verify JHS HomePage UI" type="FAILURE">
 <![CDATA[  [chromium] › JHS_WEB\Home.spec.js:6:5 › @JHSsanity Verify JHS HomePage UI ────────────────────────
 
-    TypeError: watchPage.validatePreVideoAd is not a function
+    Test timeout of 30000ms exceeded.
 
-      27 | const watchPage=jhs.getWatchPage();
-      28 | await watchPage.verifyContentPlayback();
-    > 29 | await watchPage.validatePreVideoAd();
-         |                 ^
-      30 |
-      31 | })
-      32 |
-        at C:\Users\Saraswathi_B\Playwright Automation\tests\JHS_WEB\Home.spec.js:29:17
+    Error: expect(locator).toBeVisible()
+
+    Locator: locator('//p[text()=\'TOP RESULT\']')
+    Expected: visible
+    Received: <element(s) not found>
+    Call log:
+      - Expect "toBeVisible" with timeout 5000ms
+      - waiting for locator('//p[text()=\'TOP RESULT\']')
+
+
+       at ..\pages\JHS_SearchPage.js:44
+
+      42 |  
+      43 |
+    > 44 |     await expect(this.TopResultText).toBeVisible();
+         |                                      ^
+      45 |    const actualConntentName=await this.page.locator(this.topResultscontentName).textContent();
+      46 |   console.log(actualConntentName);
+      47 |
+        at JHS_SearchPage.searchContentandClick (C:\Users\Saraswathi_B\Playwright Automation\pages\JHS_SearchPage.js:44:38)
+        at C:\Users\Saraswathi_B\Playwright Automation\tests\JHS_WEB\Home.spec.js:32:2
 
     attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
     ..\test-results\JHS_WEB-Home--JHSsanity-Verify-JHS-HomePage-UI-chromium\test-failed-1.png
@@ -181,10 +194,6 @@
 ✅ "GooglePlayStore" Image icon is visible in footer
 ✅ "AppStore" Image icon is visible in footer
 ✅ 'MYSPACEpage' succefully naviagted and footer is present
-Spider-Man
-[33m10[39m
-Spider-Man
-pass
 
 [[ATTACHMENT|test-results\JHS_WEB-Home--JHSsanity-Verify-JHS-HomePage-UI-chromium\test-failed-1.png]]
 

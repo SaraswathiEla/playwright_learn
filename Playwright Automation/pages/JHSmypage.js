@@ -26,18 +26,22 @@ async LoginBtnClick(){
 async EnterNumber(){
 
      await this.page.locator(this.MbTextField).isVisible();
-  await page.getByRole('textbox', { name: 'Enter mobile number' }).click();
-  await page.getByRole('textbox', { name: 'Enter mobile number' }).fill('7892311991');
-  await page.getByTestId('signup-form-submit-button').click();
+  await this.page.getByRole('textbox', { name: 'Enter mobile number' }).click();
+  await this.page.getByRole('textbox', { name: 'Enter mobile number' }).fill('7892311991');
+  await this.page.getByTestId('signup-form-submit-button').click();
 
 }
 async EnterOTPandSubmit(){
-  await page.getByTestId('id-0').fill('1');
-  await page.getByTestId('id-1').fill('2');
-  await page.getByTestId('id-2').fill('3');
-  await page.getByTestId('id-3').fill('0');
-  await page.getByTestId('id-3').click();
-  await page.getByTestId('otp-form-submit-button').click();
+
+  
+  await this.page.getByTestId('id-0').fill('1');
+  await this.page.getByTestId('id-1').fill('2');
+  await this.page.getByTestId('id-2').fill('3');
+  await this.page.getByTestId('id-3').fill('0');
+  await this.page.getByTestId('id-3').click();
+  await this.page.getByTestId('otp-form-submit-button').click();
+
+  await this.page.locator("//button[@data-testid='modal-close-button']").click();
 
 
 
