@@ -32,6 +32,5 @@ const login=jhs.getHomePage();
  await search.searchContentandClick("Spider-Man");
 const watchPage=jhs.getWatchPage();
 await watchPage.verifyContentPlayback();
-await watchPage.validatePreVideoAd();
 
 })

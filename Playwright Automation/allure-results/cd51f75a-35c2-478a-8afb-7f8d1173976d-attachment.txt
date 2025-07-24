@@ -1,0 +1,9 @@
+Amazon.in Shopping Cart
+------Added to cart Productname is-------
+Riddle Blue Orange 46 Cms Casual Backpack with Raincover
+-----------------------------------------
+Expected Title: Riddle Blue Orange 46 Cms Casual Backpack with Raincover
+-----------------------------------------
+Cart Product Title: Skybags Riddle Blue Orange 46 Cms Casual Backpack with Raincover
+-----------------------------------------
+Cart Product Price: ₹786.00
