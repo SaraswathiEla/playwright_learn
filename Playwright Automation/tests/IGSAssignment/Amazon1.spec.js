@@ -11,7 +11,7 @@ const search_sagg=page.locator('#sac-autocomplete-results-container [role="row"]
 
 test('Login', async ({ page }) => {
 
-//Login 
+//Login to the JHS application
     await page.locator("//span[normalize-space()='Account & Lists']").click();
     await page.waitForTimeout(2000)
     await page.getByRole('textbox', { name: 'Enter your mobile number or' }).fill('7892311991');
