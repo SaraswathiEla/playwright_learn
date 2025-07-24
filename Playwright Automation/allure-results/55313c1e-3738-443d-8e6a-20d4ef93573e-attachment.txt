@@ -1,71 +1,4 @@
-<testsuites id="" name="" tests="1" failures="1" skipped="0" errors="0" time="33.991585">
-<testsuite name="JHS_WEB\Home.spec.js" timestamp="2025-07-24T04:52:46.778Z" hostname="chromium" tests="1" failures="1" skipped="0" time="30.484" errors="0">
-<testcase name="@JHSsanity Verify JHS HomePage UI" classname="JHS_WEB\Home.spec.js" time="30.484">
-<failure message="Home.spec.js:6:5 @JHSsanity Verify JHS HomePage UI" type="FAILURE">
-<![CDATA[  [chromium] › JHS_WEB\Home.spec.js:6:5 › @JHSsanity Verify JHS HomePage UI ────────────────────────
-
-    Test timeout of 30000ms exceeded.
-
-    Error: locator.click: Test timeout of 30000ms exceeded.
-    Call log:
-      - waiting for getByRole('button', { name: 'Log In' })
-        - locator resolved to <button type="button" class="_1CSTLo7uotP5mTlp3jKun7 relative overflow-hidden flex flex-row justify-center items-center RADIUS_03 py-SPACE_04 px-SPACE_05">…</button>
-      - attempting click action
-        2 × waiting for element to be visible, enabled and stable
-          - element is visible, enabled and stable
-          - scrolling into view if needed
-          - done scrolling
-          - <div data-testid="backdropWidth" class="absolute h-screen tQFeAbaCJptIq4Nv8rE78 OzkKXU-hINluDzYAcxtkf"></div> from <div data-testid="lt-nav-id" class="_1SbjN2ovVMGxbxVL9NaDFW">…</div> subtree intercepts pointer events
-        - retrying click action
-        - waiting 20ms
-        - waiting for element to be visible, enabled and stable
-        - element is visible, enabled and stable
-        - scrolling into view if needed
-        - done scrolling
-        - <div data-testid="backdropWidth" class="absolute h-screen tQFeAbaCJptIq4Nv8rE78 OzkKXU-hINluDzYAcxtkf"></div> from <div data-testid="lt-nav-id" class="_1SbjN2ovVMGxbxVL9NaDFW">…</div> subtree intercepts pointer events
-      2 × retrying click action
-          - waiting 100ms
-          - waiting for element to be visible, enabled and stable
-          - element is visible, enabled and stable
-          - scrolling into view if needed
-          - done scrolling
-          - <div data-testid="backdropWidth" class="absolute h-screen _1UMvtJBJHXgiq_rkIMl05Q"></div> from <div data-testid="lt-nav-id" class="_1SbjN2ovVMGxbxVL9NaDFW">…</div> subtree intercepts pointer events
-      30 × retrying click action
-           - waiting 500ms
-           - waiting for element to be visible, enabled and stable
-           - element is visible, enabled and stable
-           - scrolling into view if needed
-           - done scrolling
-           - <div data-testid="backdropWidth" class="absolute h-screen _1UMvtJBJHXgiq_rkIMl05Q"></div> from <div data-testid="lt-nav-id" class="_1SbjN2ovVMGxbxVL9NaDFW">…</div> subtree intercepts pointer events
-      - retrying click action
-        - waiting 500ms
-
-
-       at ..\pages\JHSmypage.js:21
-
-      19 | async LoginBtnClick(){
-      20 |     await this.page.locator(this.LoginBtn).waitFor();
-    > 21 |     await this.page.getByRole('button', { name: 'Log In' }).click();
-         |                                                             ^
-      22 |     
-      23 |   
-      24 | }
-        at JHSmypage.LoginBtnClick (C:\Users\Saraswathi_B\Desktop\GIT\Playwright Automation\pages\JHSmypage.js:21:61)
-        at C:\Users\Saraswathi_B\Desktop\GIT\Playwright Automation\tests\JHS_WEB\Home.spec.js:23:2
-
-    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
-    ..\test-results\JHS_WEB-Home--JHSsanity-Verify-JHS-HomePage-UI-chromium\test-failed-1.png
-    ────────────────────────────────────────────────────────────────────────────────────────────────
-
-    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
-    ..\test-results\JHS_WEB-Home--JHSsanity-Verify-JHS-HomePage-UI-chromium\video.webm
-    ────────────────────────────────────────────────────────────────────────────────────────────────
-
-    Error Context: ..\test-results\JHS_WEB-Home--JHSsanity-Verify-JHS-HomePage-UI-chromium\error-context.md
-]]>
-</failure>
-<system-out>
-<![CDATA[✅ Launched JioHotstar homepage
+✅ Launched JioHotstar homepage
 ✅ Page title is correct
 ✅ JioHotstar logo is visible
 ✅ Home button is visible
@@ -219,14 +152,3 @@
 ✅ "GooglePlayStore" Image icon is visible in footer
 ✅ "AppStore" Image icon is visible in footer
 ✅ 'MYSPACEpage' succefully naviagted and footer is present
-
-[[ATTACHMENT|test-results\JHS_WEB-Home--JHSsanity-Verify-JHS-HomePage-UI-chromium\test-failed-1.png]]
-
-[[ATTACHMENT|test-results\JHS_WEB-Home--JHSsanity-Verify-JHS-HomePage-UI-chromium\video.webm]]
-
-[[ATTACHMENT|test-results\JHS_WEB-Home--JHSsanity-Verify-JHS-HomePage-UI-chromium\error-context.md]]
-]]>
-</system-out>
-</testcase>
-</testsuite>
-</testsuites>
