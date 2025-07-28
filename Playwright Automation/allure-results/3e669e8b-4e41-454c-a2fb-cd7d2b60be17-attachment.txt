@@ -1,9 +1,0 @@
-Amazon.in Shopping Cart
-------Added to cart Productname is-------
-Women Summits Sneakers
------------------------------------------
-Expected Title: Women Summits Sneakers
------------------------------------------
-Cart Product Title: Skechers Womens Summits - 896220id Gray/Light Blue Casual Shoe - 5 UK (8 US) (896220ID-GYLB)
------------------------------------------
-Cart Product Price: ₹2,400.00

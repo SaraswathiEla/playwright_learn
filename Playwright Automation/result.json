@@ -51,7 +51,7 @@
       {
         "outputDir": "C:/Users/Saraswathi_B/Desktop/GIT/Playwright Automation/test-results",
         "repeatEach": 1,
-        "retries": 0,
+        "retries": 1,
         "metadata": {
           "actualWorkers": 1
         },
@@ -67,7 +67,7 @@
       {
         "outputDir": "C:/Users/Saraswathi_B/Desktop/GIT/Playwright Automation/test-results",
         "repeatEach": 1,
-        "retries": 0,
+        "retries": 1,
         "metadata": {
           "actualWorkers": 1
         },
@@ -83,7 +83,7 @@
       {
         "outputDir": "C:/Users/Saraswathi_B/Desktop/GIT/Playwright Automation/test-results",
         "repeatEach": 1,
-        "retries": 0,
+        "retries": 1,
         "metadata": {
           "actualWorkers": 1
         },
@@ -106,17 +106,15 @@
   },
   "suites": [
     {
-      "title": "JHS_WEB\\Home.spec.js",
-      "file": "JHS_WEB/Home.spec.js",
+      "title": "JHS_WEB\\JHSHomeUI.spec.js",
+      "file": "JHS_WEB/JHSHomeUI.spec.js",
       "column": 0,
       "line": 0,
       "specs": [
         {
-          "title": "@JHSsanity Verify JHS HomePage UI",
-          "ok": false,
-          "tags": [
-            "JHSsanity"
-          ],
+          "title": " Verify JHS HomePage UI ",
+          "ok": true,
+          "tags": [],
           "tests": [
             {
               "timeout": 30000,
@@ -128,40 +126,18 @@
                 {
                   "workerIndex": 0,
                   "parallelIndex": 0,
-                  "status": "failed",
-                  "duration": 25391,
-                  "error": {
-                    "message": "Error: \u001b[31mTimed out 5000ms waiting for \u001b[39m\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m()\u001b[22m\n\nLocator: locator('//button[@data-testid=\\'back-button\\']')\nExpected: visible\nReceived: <element(s) not found>\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('//button[@data-testid=\\'back-button\\']')\u001b[22m\n",
-                    "stack": "Error: \u001b[31mTimed out 5000ms waiting for \u001b[39m\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m()\u001b[22m\n\nLocator: locator('//button[@data-testid=\\'back-button\\']')\nExpected: visible\nReceived: <element(s) not found>\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('//button[@data-testid=\\'back-button\\']')\u001b[22m\n\n    at JHS_WatchPage.verifyContentPlayback (C:\\Users\\Saraswathi_B\\Desktop\\GIT\\Playwright Automation\\pages\\JHS_watchPage.js:29:58)\n    at C:\\Users\\Saraswathi_B\\Desktop\\GIT\\Playwright Automation\\tests\\JHS_WEB\\Home.spec.js:34:17",
-                    "location": {
-                      "file": "C:\\Users\\Saraswathi_B\\Desktop\\GIT\\Playwright Automation\\pages\\JHS_watchPage.js",
-                      "column": 58,
-                      "line": 29
-                    },
-                    "snippet": "\u001b[90m   at \u001b[39m..\\pages\\JHS_watchPage.js:29\n\n\u001b[0m \u001b[90m 27 |\u001b[39m {\n \u001b[90m 28 |\u001b[39m     \u001b[90m//verify back button\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 29 |\u001b[39m \u001b[36mawait\u001b[39m expect(\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpage\u001b[33m.\u001b[39mlocator(\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m\u001b[33mBackButtonOnPlayer\u001b[39m))\u001b[33m.\u001b[39mtoBeVisible()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                                          \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 30 |\u001b[39m\n \u001b[90m 31 |\u001b[39m   \u001b[36mawait\u001b[39m expect(\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpage\u001b[33m.\u001b[39mlocator(\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39madInfoSection))\u001b[33m.\u001b[39mtoBeVisible()\u001b[33m;\u001b[39m\n \u001b[90m 32 |\u001b[39m  \u001b[90m// await expect(this.page.locator(this.adTag)).toBeVisible();\u001b[39m\u001b[0m"
-                  },
-                  "errors": [
-                    {
-                      "location": {
-                        "file": "C:\\Users\\Saraswathi_B\\Desktop\\GIT\\Playwright Automation\\pages\\JHS_watchPage.js",
-                        "column": 58,
-                        "line": 29
-                      },
-                      "message": "Error: \u001b[31mTimed out 5000ms waiting for \u001b[39m\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m()\u001b[22m\n\nLocator: locator('//button[@data-testid=\\'back-button\\']')\nExpected: visible\nReceived: <element(s) not found>\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('//button[@data-testid=\\'back-button\\']')\u001b[22m\n\n\n\u001b[90m   at \u001b[39m..\\pages\\JHS_watchPage.js:29\n\n\u001b[0m \u001b[90m 27 |\u001b[39m {\n \u001b[90m 28 |\u001b[39m     \u001b[90m//verify back button\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 29 |\u001b[39m \u001b[36mawait\u001b[39m expect(\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpage\u001b[33m.\u001b[39mlocator(\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m\u001b[33mBackButtonOnPlayer\u001b[39m))\u001b[33m.\u001b[39mtoBeVisible()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                                          \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 30 |\u001b[39m\n \u001b[90m 31 |\u001b[39m   \u001b[36mawait\u001b[39m expect(\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mpage\u001b[33m.\u001b[39mlocator(\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39madInfoSection))\u001b[33m.\u001b[39mtoBeVisible()\u001b[33m;\u001b[39m\n \u001b[90m 32 |\u001b[39m  \u001b[90m// await expect(this.page.locator(this.adTag)).toBeVisible();\u001b[39m\u001b[0m\n\u001b[2m    at JHS_WatchPage.verifyContentPlayback (C:\\Users\\Saraswathi_B\\Desktop\\GIT\\Playwright Automation\\pages\\JHS_watchPage.js:29:58)\u001b[22m\n\u001b[2m    at C:\\Users\\Saraswathi_B\\Desktop\\GIT\\Playwright Automation\\tests\\JHS_WEB\\Home.spec.js:34:17\u001b[22m"
-                    }
-                  ],
+                  "status": "passed",
+                  "duration": 13885,
+                  "errors": [],
                   "stdout": [
                     {
-                      "text": "✅ Launched JioHotstar homepage\n"
+                      "text": "✅ sucessfully lunched the jio hotstar\n"
                     },
                     {
                       "text": "✅ Page title is correct\n"
                     },
                     {
-                      "text": "✅ JioHotstar logo is visible\n"
-                    },
-                    {
-                      "text": "✅ Home button is visible\n"
+                      "text": "✅ Home button is visible: true\n"
                     },
                     {
                       "text": "✅ Search button is visible\n"
@@ -612,54 +588,733 @@
                     },
                     {
                       "text": "✅ 'MYSPACEpage' succefully naviagted and footer is present\n"
-                    },
-                    {
-                      "text": "Spider-Man\n"
-                    },
-                    {
-                      "text": "\u001b[33m10\u001b[39m\n"
-                    },
-                    {
-                      "text": "Spider-Man\n"
-                    },
-                    {
-                      "text": "pass\n"
                     }
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-07-24T06:11:13.920Z",
+                  "steps": [
+                    {
+                      "title": "Launch JioHotstar Homepage",
+                      "duration": 4152
+                    },
+                    {
+                      "title": "Verify HomePage Titel Matched",
+                      "duration": 57
+                    },
+                    {
+                      "title": "Verify JioHotstar logo is visible",
+                      "duration": 68
+                    },
+                    {
+                      "title": "verify sideMenubuttons are present",
+                      "duration": 155,
+                      "steps": [
+                        {
+                          "title": "verify Home Button is present",
+                          "duration": 24
+                        },
+                        {
+                          "title": "verify Search Button is present",
+                          "duration": 26
+                        },
+                        {
+                          "title": "verify TV Button is present",
+                          "duration": 15
+                        },
+                        {
+                          "title": "verify Movie Button is present",
+                          "duration": 12
+                        },
+                        {
+                          "title": "verify Sports Button is present",
+                          "duration": 14
+                        },
+                        {
+                          "title": "verify Spark Button is present",
+                          "duration": 14
+                        },
+                        {
+                          "title": "verify Categories Button is present",
+                          "duration": 15
+                        },
+                        {
+                          "title": "verify Search Button is present",
+                          "duration": 23
+                        }
+                      ]
+                    },
+                    {
+                      "title": "verify FooterLabels are present",
+                      "duration": 240,
+                      "steps": [
+                        {
+                          "title": "verify Company text Label is present",
+                          "duration": 37
+                        },
+                        {
+                          "title": "verify View Website in text Label is present",
+                          "duration": 14
+                        },
+                        {
+                          "title": "verify Need Help? text Label is present",
+                          "duration": 10
+                        },
+                        {
+                          "title": "verify \"Connect with Us\" text Label is present",
+                          "duration": 10
+                        },
+                        {
+                          "title": "verify \"AboutUs\" text Label is present",
+                          "duration": 17
+                        },
+                        {
+                          "title": "verify \"Careers\" text Label is present",
+                          "duration": 13
+                        },
+                        {
+                          "title": "verify \"English\" text Label is present",
+                          "duration": 11
+                        },
+                        {
+                          "title": "verify Visit Help Center text Label is present",
+                          "duration": 13
+                        },
+                        {
+                          "title": "verify \"Share Feedback\" text Label is present",
+                          "duration": 11
+                        },
+                        {
+                          "title": "verify \"© 2025 STAR. All Rights Reserved.\" text Label is present",
+                          "duration": 12
+                        },
+                        {
+                          "title": "verify \"Terms Of Use\" text Label is present",
+                          "duration": 14
+                        },
+                        {
+                          "title": "verify \"Privacy Policy\" text Label is present",
+                          "duration": 12
+                        },
+                        {
+                          "title": "verify \"FAQ\" text Label is present",
+                          "duration": 8
+                        },
+                        {
+                          "title": "verify \"Facebook\" Image icon is present",
+                          "duration": 9
+                        },
+                        {
+                          "title": "verify \"Twitter\" Image icon is present",
+                          "duration": 8
+                        },
+                        {
+                          "title": "verify \"GooglePlayStore\" Image icon is present",
+                          "duration": 9
+                        },
+                        {
+                          "title": "verify \"AppStore\" Image icon is present",
+                          "duration": 13
+                        }
+                      ]
+                    },
+                    {
+                      "title": "verify SearchButton Functinality and its landingpage footer section",
+                      "duration": 953,
+                      "steps": [
+                        {
+                          "title": "verify FooterLabels are present",
+                          "duration": 447,
+                          "steps": [
+                            {
+                              "title": "verify Company text Label is present",
+                              "duration": 55
+                            },
+                            {
+                              "title": "verify View Website in text Label is present",
+                              "duration": 85
+                            },
+                            {
+                              "title": "verify Need Help? text Label is present",
+                              "duration": 36
+                            },
+                            {
+                              "title": "verify \"Connect with Us\" text Label is present",
+                              "duration": 21
+                            },
+                            {
+                              "title": "verify \"AboutUs\" text Label is present",
+                              "duration": 14
+                            },
+                            {
+                              "title": "verify \"Careers\" text Label is present",
+                              "duration": 13
+                            },
+                            {
+                              "title": "verify \"English\" text Label is present",
+                              "duration": 38
+                            },
+                            {
+                              "title": "verify Visit Help Center text Label is present",
+                              "duration": 17
+                            },
+                            {
+                              "title": "verify \"Share Feedback\" text Label is present",
+                              "duration": 22
+                            },
+                            {
+                              "title": "verify \"© 2025 STAR. All Rights Reserved.\" text Label is present",
+                              "duration": 24
+                            },
+                            {
+                              "title": "verify \"Terms Of Use\" text Label is present",
+                              "duration": 20
+                            },
+                            {
+                              "title": "verify \"Privacy Policy\" text Label is present",
+                              "duration": 12
+                            },
+                            {
+                              "title": "verify \"FAQ\" text Label is present",
+                              "duration": 11
+                            },
+                            {
+                              "title": "verify \"Facebook\" Image icon is present",
+                              "duration": 17
+                            },
+                            {
+                              "title": "verify \"Twitter\" Image icon is present",
+                              "duration": 10
+                            },
+                            {
+                              "title": "verify \"GooglePlayStore\" Image icon is present",
+                              "duration": 9
+                            },
+                            {
+                              "title": "verify \"AppStore\" Image icon is present",
+                              "duration": 16
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "title": "verify TvButton Functinality and its landingpage footer section",
+                      "duration": 1464,
+                      "steps": [
+                        {
+                          "title": "verify FooterLabels are present",
+                          "duration": 399,
+                          "steps": [
+                            {
+                              "title": "verify Company text Label is present",
+                              "duration": 37
+                            },
+                            {
+                              "title": "verify View Website in text Label is present",
+                              "duration": 24
+                            },
+                            {
+                              "title": "verify Need Help? text Label is present",
+                              "duration": 12
+                            },
+                            {
+                              "title": "verify \"Connect with Us\" text Label is present",
+                              "duration": 22
+                            },
+                            {
+                              "title": "verify \"AboutUs\" text Label is present",
+                              "duration": 17
+                            },
+                            {
+                              "title": "verify \"Careers\" text Label is present",
+                              "duration": 15
+                            },
+                            {
+                              "title": "verify \"English\" text Label is present",
+                              "duration": 16
+                            },
+                            {
+                              "title": "verify Visit Help Center text Label is present",
+                              "duration": 12
+                            },
+                            {
+                              "title": "verify \"Share Feedback\" text Label is present",
+                              "duration": 27
+                            },
+                            {
+                              "title": "verify \"© 2025 STAR. All Rights Reserved.\" text Label is present",
+                              "duration": 83
+                            },
+                            {
+                              "title": "verify \"Terms Of Use\" text Label is present",
+                              "duration": 45
+                            },
+                            {
+                              "title": "verify \"Privacy Policy\" text Label is present",
+                              "duration": 15
+                            },
+                            {
+                              "title": "verify \"FAQ\" text Label is present",
+                              "duration": 11
+                            },
+                            {
+                              "title": "verify \"Facebook\" Image icon is present",
+                              "duration": 8
+                            },
+                            {
+                              "title": "verify \"Twitter\" Image icon is present",
+                              "duration": 10
+                            },
+                            {
+                              "title": "verify \"GooglePlayStore\" Image icon is present",
+                              "duration": 8
+                            },
+                            {
+                              "title": "verify \"AppStore\" Image icon is present",
+                              "duration": 12
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "title": "verify MoviesButton Functinality and its landingpage footer section",
+                      "duration": 1281,
+                      "steps": [
+                        {
+                          "title": "verify FooterLabels are present",
+                          "duration": 339,
+                          "steps": [
+                            {
+                              "title": "verify Company text Label is present",
+                              "duration": 62
+                            },
+                            {
+                              "title": "verify View Website in text Label is present",
+                              "duration": 31
+                            },
+                            {
+                              "title": "verify Need Help? text Label is present",
+                              "duration": 32
+                            },
+                            {
+                              "title": "verify \"Connect with Us\" text Label is present",
+                              "duration": 12
+                            },
+                            {
+                              "title": "verify \"AboutUs\" text Label is present",
+                              "duration": 14
+                            },
+                            {
+                              "title": "verify \"Careers\" text Label is present",
+                              "duration": 13
+                            },
+                            {
+                              "title": "verify \"English\" text Label is present",
+                              "duration": 14
+                            },
+                            {
+                              "title": "verify Visit Help Center text Label is present",
+                              "duration": 13
+                            },
+                            {
+                              "title": "verify \"Share Feedback\" text Label is present",
+                              "duration": 17
+                            },
+                            {
+                              "title": "verify \"© 2025 STAR. All Rights Reserved.\" text Label is present",
+                              "duration": 13
+                            },
+                            {
+                              "title": "verify \"Terms Of Use\" text Label is present",
+                              "duration": 9
+                            },
+                            {
+                              "title": "verify \"Privacy Policy\" text Label is present",
+                              "duration": 15
+                            },
+                            {
+                              "title": "verify \"FAQ\" text Label is present",
+                              "duration": 11
+                            },
+                            {
+                              "title": "verify \"Facebook\" Image icon is present",
+                              "duration": 15
+                            },
+                            {
+                              "title": "verify \"Twitter\" Image icon is present",
+                              "duration": 19
+                            },
+                            {
+                              "title": "verify \"GooglePlayStore\" Image icon is present",
+                              "duration": 13
+                            },
+                            {
+                              "title": "verify \"AppStore\" Image icon is present",
+                              "duration": 16
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "title": "verify SportsButton Functinality and its landingpage footer section",
+                      "duration": 1616,
+                      "steps": [
+                        {
+                          "title": "verify FooterLabels are present",
+                          "duration": 618,
+                          "steps": [
+                            {
+                              "title": "verify Company text Label is present",
+                              "duration": 181
+                            },
+                            {
+                              "title": "verify View Website in text Label is present",
+                              "duration": 76
+                            },
+                            {
+                              "title": "verify Need Help? text Label is present",
+                              "duration": 21
+                            },
+                            {
+                              "title": "verify \"Connect with Us\" text Label is present",
+                              "duration": 36
+                            },
+                            {
+                              "title": "verify \"AboutUs\" text Label is present",
+                              "duration": 25
+                            },
+                            {
+                              "title": "verify \"Careers\" text Label is present",
+                              "duration": 17
+                            },
+                            {
+                              "title": "verify \"English\" text Label is present",
+                              "duration": 46
+                            },
+                            {
+                              "title": "verify Visit Help Center text Label is present",
+                              "duration": 18
+                            },
+                            {
+                              "title": "verify \"Share Feedback\" text Label is present",
+                              "duration": 13
+                            },
+                            {
+                              "title": "verify \"© 2025 STAR. All Rights Reserved.\" text Label is present",
+                              "duration": 11
+                            },
+                            {
+                              "title": "verify \"Terms Of Use\" text Label is present",
+                              "duration": 24
+                            },
+                            {
+                              "title": "verify \"Privacy Policy\" text Label is present",
+                              "duration": 51
+                            },
+                            {
+                              "title": "verify \"FAQ\" text Label is present",
+                              "duration": 24
+                            },
+                            {
+                              "title": "verify \"Facebook\" Image icon is present",
+                              "duration": 10
+                            },
+                            {
+                              "title": "verify \"Twitter\" Image icon is present",
+                              "duration": 14
+                            },
+                            {
+                              "title": "verify \"GooglePlayStore\" Image icon is present",
+                              "duration": 15
+                            },
+                            {
+                              "title": "verify \"AppStore\" Image icon is present",
+                              "duration": 17
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "title": "verify SparkButton Functinality and its landingpage footer section",
+                      "duration": 983,
+                      "steps": [
+                        {
+                          "title": "verify FooterLabels are present",
+                          "duration": 681,
+                          "steps": [
+                            {
+                              "title": "verify Company text Label is present",
+                              "duration": 14
+                            },
+                            {
+                              "title": "verify View Website in text Label is present",
+                              "duration": 13
+                            },
+                            {
+                              "title": "verify Need Help? text Label is present",
+                              "duration": 14
+                            },
+                            {
+                              "title": "verify \"Connect with Us\" text Label is present",
+                              "duration": 16
+                            },
+                            {
+                              "title": "verify \"AboutUs\" text Label is present",
+                              "duration": 16
+                            },
+                            {
+                              "title": "verify \"Careers\" text Label is present",
+                              "duration": 12
+                            },
+                            {
+                              "title": "verify \"English\" text Label is present",
+                              "duration": 9
+                            },
+                            {
+                              "title": "verify Visit Help Center text Label is present",
+                              "duration": 12
+                            },
+                            {
+                              "title": "verify \"Share Feedback\" text Label is present",
+                              "duration": 13
+                            },
+                            {
+                              "title": "verify \"© 2025 STAR. All Rights Reserved.\" text Label is present",
+                              "duration": 12
+                            },
+                            {
+                              "title": "verify \"Terms Of Use\" text Label is present",
+                              "duration": 10
+                            },
+                            {
+                              "title": "verify \"Privacy Policy\" text Label is present",
+                              "duration": 12
+                            },
+                            {
+                              "title": "verify \"FAQ\" text Label is present",
+                              "duration": 13
+                            },
+                            {
+                              "title": "verify \"Facebook\" Image icon is present",
+                              "duration": 16
+                            },
+                            {
+                              "title": "verify \"Twitter\" Image icon is present",
+                              "duration": 11
+                            },
+                            {
+                              "title": "verify \"GooglePlayStore\" Image icon is present",
+                              "duration": 11
+                            },
+                            {
+                              "title": "verify \"AppStore\" Image icon is present",
+                              "duration": 463
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "title": "verify Categgories Button Functinality and its landingpage footer section",
+                      "duration": 1213,
+                      "steps": [
+                        {
+                          "title": "verify FooterLabels are present",
+                          "duration": 465,
+                          "steps": [
+                            {
+                              "title": "verify Company text Label is present",
+                              "duration": 91
+                            },
+                            {
+                              "title": "verify View Website in text Label is present",
+                              "duration": 24
+                            },
+                            {
+                              "title": "verify Need Help? text Label is present",
+                              "duration": 38
+                            },
+                            {
+                              "title": "verify \"Connect with Us\" text Label is present",
+                              "duration": 26
+                            },
+                            {
+                              "title": "verify \"AboutUs\" text Label is present",
+                              "duration": 21
+                            },
+                            {
+                              "title": "verify \"Careers\" text Label is present",
+                              "duration": 33
+                            },
+                            {
+                              "title": "verify \"English\" text Label is present",
+                              "duration": 17
+                            },
+                            {
+                              "title": "verify Visit Help Center text Label is present",
+                              "duration": 22
+                            },
+                            {
+                              "title": "verify \"Share Feedback\" text Label is present",
+                              "duration": 24
+                            },
+                            {
+                              "title": "verify \"© 2025 STAR. All Rights Reserved.\" text Label is present",
+                              "duration": 13
+                            },
+                            {
+                              "title": "verify \"Terms Of Use\" text Label is present",
+                              "duration": 11
+                            },
+                            {
+                              "title": "verify \"Privacy Policy\" text Label is present",
+                              "duration": 13
+                            },
+                            {
+                              "title": "verify \"FAQ\" text Label is present",
+                              "duration": 14
+                            },
+                            {
+                              "title": "verify \"Facebook\" Image icon is present",
+                              "duration": 14
+                            },
+                            {
+                              "title": "verify \"Twitter\" Image icon is present",
+                              "duration": 53
+                            },
+                            {
+                              "title": "verify \"GooglePlayStore\" Image icon is present",
+                              "duration": 17
+                            },
+                            {
+                              "title": "verify \"AppStore\" Image icon is present",
+                              "duration": 12
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "title": "verify MYspacePageButton Functinality and its landingpage footer section",
+                      "duration": 682,
+                      "steps": [
+                        {
+                          "title": "verify FooterLabels are present",
+                          "duration": 204,
+                          "steps": [
+                            {
+                              "title": "verify Company text Label is present",
+                              "duration": 12
+                            },
+                            {
+                              "title": "verify View Website in text Label is present",
+                              "duration": 8
+                            },
+                            {
+                              "title": "verify Need Help? text Label is present",
+                              "duration": 9
+                            },
+                            {
+                              "title": "verify \"Connect with Us\" text Label is present",
+                              "duration": 12
+                            },
+                            {
+                              "title": "verify \"AboutUs\" text Label is present",
+                              "duration": 10
+                            },
+                            {
+                              "title": "verify \"Careers\" text Label is present",
+                              "duration": 10
+                            },
+                            {
+                              "title": "verify \"English\" text Label is present",
+                              "duration": 8
+                            },
+                            {
+                              "title": "verify Visit Help Center text Label is present",
+                              "duration": 12
+                            },
+                            {
+                              "title": "verify \"Share Feedback\" text Label is present",
+                              "duration": 14
+                            },
+                            {
+                              "title": "verify \"© 2025 STAR. All Rights Reserved.\" text Label is present",
+                              "duration": 11
+                            },
+                            {
+                              "title": "verify \"Terms Of Use\" text Label is present",
+                              "duration": 13
+                            },
+                            {
+                              "title": "verify \"Privacy Policy\" text Label is present",
+                              "duration": 10
+                            },
+                            {
+                              "title": "verify \"FAQ\" text Label is present",
+                              "duration": 14
+                            },
+                            {
+                              "title": "verify \"Facebook\" Image icon is present",
+                              "duration": 9
+                            },
+                            {
+                              "title": "verify \"Twitter\" Image icon is present",
+                              "duration": 14
+                            },
+                            {
+                              "title": "verify \"GooglePlayStore\" Image icon is present",
+                              "duration": 9
+                            },
+                            {
+                              "title": "verify \"AppStore\" Image icon is present",
+                              "duration": 8
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "startTime": "2025-07-28T03:44:36.432Z",
                   "annotations": [],
                   "attachments": [
                     {
+                      "name": "Home page titel True",
+                      "contentType": "text/plain",
+                      "body": "VGl0bGUgbWF0Y2hlZDogdHJ1ZQ=="
+                    },
+                    {
+                      "name": "Logo is Visible true",
+                      "contentType": "text/plain",
+                      "body": "TG9nbyBpcyB2aXNpYmxlOiB0cnVl"
+                    },
+                    {
+                      "name": "Home Button Visible",
+                      "contentType": "text/plain",
+                      "body": "SG9tZSBCdXR0b24gdmlzaWJsZTogdHJ1ZQ=="
+                    },
+                    {
                       "name": "screenshot",
                       "contentType": "image/png",
-                      "path": "C:\\Users\\Saraswathi_B\\Desktop\\GIT\\Playwright Automation\\test-results\\JHS_WEB-Home--JHSsanity-Verify-JHS-HomePage-UI-chromium\\test-failed-1.png"
+                      "path": "C:\\Users\\Saraswathi_B\\Desktop\\GIT\\Playwright Automation\\test-results\\JHS_WEB-JHSHomeUI--Verify-JHS-HomePage-UI--chromium\\test-finished-1.png"
                     },
                     {
                       "name": "video",
                       "contentType": "video/webm",
-                      "path": "C:\\Users\\Saraswathi_B\\Desktop\\GIT\\Playwright Automation\\test-results\\JHS_WEB-Home--JHSsanity-Verify-JHS-HomePage-UI-chromium\\video.webm"
-                    },
-                    {
-                      "name": "error-context",
-                      "contentType": "text/markdown",
-                      "path": "C:\\Users\\Saraswathi_B\\Desktop\\GIT\\Playwright Automation\\test-results\\JHS_WEB-Home--JHSsanity-Verify-JHS-HomePage-UI-chromium\\error-context.md"
+                      "path": "C:\\Users\\Saraswathi_B\\Desktop\\GIT\\Playwright Automation\\test-results\\JHS_WEB-JHSHomeUI--Verify-JHS-HomePage-UI--chromium\\video.webm"
                     }
-                  ],
-                  "errorLocation": {
-                    "file": "C:\\Users\\Saraswathi_B\\Desktop\\GIT\\Playwright Automation\\pages\\JHS_watchPage.js",
-                    "column": 58,
-                    "line": 29
-                  }
+                  ]
                 }
               ],
-              "status": "unexpected"
+              "status": "expected"
             }
           ],
-          "id": "54f20806c34766e9a90b-a8d1cbb3b0b01213c0b2",
-          "file": "JHS_WEB/Home.spec.js",
-          "line": 6,
+          "id": "1687957c22609361f3d5-cb69d0cc77427e15fea6",
+          "file": "JHS_WEB/JHSHomeUI.spec.js",
+          "line": 5,
           "column": 5
         }
       ]
@@ -667,11 +1322,11 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2025-07-24T06:11:11.713Z",
-    "duration": 28427.155,
-    "expected": 0,
+    "startTime": "2025-07-28T03:44:34.697Z",
+    "duration": 17130.477,
+    "expected": 1,
     "skipped": 0,
-    "unexpected": 1,
+    "unexpected": 0,
     "flaky": 0
   }
 }

@@ -4,6 +4,7 @@
   "main": "index.js",
   "scripts": {
     "regression":"npx playwright test",
+    "JHSsanity":"npx  playwright  test --headed --project=chromium  --grep '@JHSSanity'",
     "sanity":"npx  playwright  test --headed --project=chromium  --grep '@sanity'",
     "AmazonFlow":"npx  playwright  test AmazonFlowPOM.spec.js --headed --project=chromium",
     "generateAllureReport":"allure generate ./allure-results --clean",

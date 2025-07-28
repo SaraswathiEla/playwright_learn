@@ -1,5 +1,5 @@
 import { expect } from '@playwright/test';
-
+const { allure } = require('allure-playwright');
 export class JHS_SearchPage
 {
     constructor(page)
@@ -7,8 +7,7 @@ export class JHS_SearchPage
         this.page=page;
     }
 
-//Locators
-
+//-------Locators-----------
 get searchTextBox() {
     return this.page.locator('//input[@id="searchBar"]');
   }
@@ -28,20 +27,26 @@ get searchTextBox() {
     return this.page.locator("//div[@data-testid='search-hero']//button[@type='button']")
   }
 
+  get allSearchContentTitel()
+  {
+    return this.page.locator ("//div[@data-testid='grid']//span[contains(@class, 'BODY3_MEDIUM') ]");
+  }
 
 
-  //Action
+  //---------Action--------------
 
 async searchContentandClick(contentName) {
-  
-    //await this.searchTextBox.fill(contentName); // Enter the Content Name
-      
+
+  await allure.step('verify User able to search the specific content name and click on watch button', async () => { 
  await this.page.getByRole('textbox', { name: 'Movies, shows and more' }).click();
   await this.page.getByRole('textbox', { name: 'Movies, shows and more' }).pressSequentially(contentName)
   await this.page.getByRole('textbox', { name: 'Movies, shows and more' }).press('Enter');
+  });
+  await allure.step('verify TopResult TEXT is Present', async () => { 
  
-
     await expect(this.TopResultText).toBeVisible();
+  });
+  await allure.step('verify User able to see searched specific content on Top results', async () => { 
    const actualConntentName=await this.page.locator(this.topResultscontentName).textContent();
   console.log(actualConntentName);
 
@@ -50,13 +55,13 @@ async searchContentandClick(contentName) {
     console.log(contentName)
 
     if (contentName.trim() === actualConntentName?.trim()) {
-      console.log("pass");
-      await expect(this.WatchnowButton).toBeVisible(); // Uncomment if needed
+      await allure.step('verify watch button is present on Search specific content', async () => { 
+      await expect(this.WatchnowButton).toBeVisible(); 
       await this.WatchnowButton.click();
-
+      });
     }
-//await expect( this.page.locator("//button[@data-testid='back-button']")).toBeVisible();
+  });
+}
 
-//await this.page.locator("//button[@data-testid='back-button']")
-  }
+  
 }

@@ -1,8 +1,4 @@
-<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="17.130477">
-<testsuite name="JHS_WEB\JHSHomeUI.spec.js" timestamp="2025-07-28T03:44:34.794Z" hostname="chromium" tests="1" failures="0" skipped="0" time="13.885" errors="0">
-<testcase name=" Verify JHS HomePage UI " classname="JHS_WEB\JHSHomeUI.spec.js" time="13.885">
-<system-out>
-<![CDATA[✅ sucessfully lunched the jio hotstar
+✅ sucessfully lunched the jio hotstar
 ✅ Page title is correct
 ✅ Home button is visible: true
 ✅ Search button is visible
@@ -155,12 +151,3 @@
 ✅ "GooglePlayStore" Image icon is visible in footer
 ✅ "AppStore" Image icon is visible in footer
 ✅ 'MYSPACEpage' succefully naviagted and footer is present
-
-[[ATTACHMENT|test-results\JHS_WEB-JHSHomeUI--Verify-JHS-HomePage-UI--chromium\test-finished-1.png]]
-
-[[ATTACHMENT|test-results\JHS_WEB-JHSHomeUI--Verify-JHS-HomePage-UI--chromium\video.webm]]
-]]>
-</system-out>
-</testcase>
-</testsuite>
-</testsuites>
