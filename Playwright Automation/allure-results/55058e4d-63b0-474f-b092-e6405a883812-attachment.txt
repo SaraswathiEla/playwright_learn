@@ -1,6 +1,0 @@
-✅ sucessfully lunched the jio hotstar
-✅ Landed on Sports page
-✅ 'Billboard AD is present
-✅ 'BillBoard AD tag is present
-✅ 'BillBoard AD Description is present
-✅ 'BillBoard ADs CTA button is present
