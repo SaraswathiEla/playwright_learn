@@ -1,9 +1,0 @@
-Amazon.in Shopping Cart
-------Added to cart Productname is-------
-Women Summits Sneakers
------------------------------------------
-Expected Title: Women Summits Sneakers
------------------------------------------
-Cart Product Title: Skechers Womens Summits - 896220id NVY/HTPNK Casual Shoe - 7 UK (10 US) (896220ID-NVHP), Blue
------------------------------------------
-Cart Product Price: ₹2,580.00

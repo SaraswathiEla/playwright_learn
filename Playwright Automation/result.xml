@@ -1,47 +1,10 @@
-<testsuites id="" name="" tests="1" failures="1" skipped="0" errors="0" time="28.427155">
-<testsuite name="JHS_WEB\Home.spec.js" timestamp="2025-07-24T06:11:11.847Z" hostname="chromium" tests="1" failures="1" skipped="0" time="25.391" errors="0">
-<testcase name="@JHSsanity Verify JHS HomePage UI" classname="JHS_WEB\Home.spec.js" time="25.391">
-<failure message="Home.spec.js:6:5 @JHSsanity Verify JHS HomePage UI" type="FAILURE">
-<![CDATA[  [chromium] › JHS_WEB\Home.spec.js:6:5 › @JHSsanity Verify JHS HomePage UI ────────────────────────
-
-    Error: Timed out 5000ms waiting for expect(locator).toBeVisible()
-
-    Locator: locator('//button[@data-testid=\'back-button\']')
-    Expected: visible
-    Received: <element(s) not found>
-    Call log:
-      - Expect "toBeVisible" with timeout 5000ms
-      - waiting for locator('//button[@data-testid=\'back-button\']')
-
-
-       at ..\pages\JHS_watchPage.js:29
-
-      27 | {
-      28 |     //verify back button
-    > 29 | await expect(this.page.locator(this.BackButtonOnPlayer)).toBeVisible();
-         |                                                          ^
-      30 |
-      31 |   await expect(this.page.locator(this.adInfoSection)).toBeVisible();
-      32 |  // await expect(this.page.locator(this.adTag)).toBeVisible();
-        at JHS_WatchPage.verifyContentPlayback (C:\Users\Saraswathi_B\Desktop\GIT\Playwright Automation\pages\JHS_watchPage.js:29:58)
-        at C:\Users\Saraswathi_B\Desktop\GIT\Playwright Automation\tests\JHS_WEB\Home.spec.js:34:17
-
-    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
-    ..\test-results\JHS_WEB-Home--JHSsanity-Verify-JHS-HomePage-UI-chromium\test-failed-1.png
-    ────────────────────────────────────────────────────────────────────────────────────────────────
-
-    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
-    ..\test-results\JHS_WEB-Home--JHSsanity-Verify-JHS-HomePage-UI-chromium\video.webm
-    ────────────────────────────────────────────────────────────────────────────────────────────────
-
-    Error Context: ..\test-results\JHS_WEB-Home--JHSsanity-Verify-JHS-HomePage-UI-chromium\error-context.md
-]]>
-</failure>
+<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="15.944947">
+<testsuite name="JHS_WEB\JHSHomeUI.spec.js" timestamp="2025-07-25T12:29:32.973Z" hostname="chromium" tests="1" failures="0" skipped="0" time="12.888" errors="0">
+<testcase name=" Verify JHS HomePage UI " classname="JHS_WEB\JHSHomeUI.spec.js" time="12.888">
 <system-out>
-<![CDATA[✅ Launched JioHotstar homepage
+<![CDATA[✅ sucessfully lunched the jio hotstar
 ✅ Page title is correct
-✅ JioHotstar logo is visible
-✅ Home button is visible
+✅ Home button is visible: true
 ✅ Search button is visible
 ✅ TV button is visible
 ✅ Movies button is visible
@@ -192,16 +155,10 @@
 ✅ "GooglePlayStore" Image icon is visible in footer
 ✅ "AppStore" Image icon is visible in footer
 ✅ 'MYSPACEpage' succefully naviagted and footer is present
-Spider-Man
-[33m10[39m
-Spider-Man
-pass
 
-[[ATTACHMENT|test-results\JHS_WEB-Home--JHSsanity-Verify-JHS-HomePage-UI-chromium\test-failed-1.png]]
+[[ATTACHMENT|test-results\JHS_WEB-JHSHomeUI--Verify-JHS-HomePage-UI--chromium\test-finished-1.png]]
 
-[[ATTACHMENT|test-results\JHS_WEB-Home--JHSsanity-Verify-JHS-HomePage-UI-chromium\video.webm]]
-
-[[ATTACHMENT|test-results\JHS_WEB-Home--JHSsanity-Verify-JHS-HomePage-UI-chromium\error-context.md]]
+[[ATTACHMENT|test-results\JHS_WEB-JHSHomeUI--Verify-JHS-HomePage-UI--chromium\video.webm]]
 ]]>
 </system-out>
 </testcase>

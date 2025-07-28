@@ -1,0 +1,7 @@
+✅ sucessfully lunched the jio hotstar
+✅ Page title is correct
+✅ Logo is visible
+✅ Landed on search Page
+Spider-Man
+10
+Spider-Man
